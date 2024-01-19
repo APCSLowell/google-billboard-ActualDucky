@@ -18,3 +18,4 @@ public class GoogleBillboard {
         }
         return true;
 	}
+}
