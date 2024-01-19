@@ -8,7 +8,8 @@ public class GoogleBillboard {
 	
 
 	//Finish this function
-	public boolean isPrime(double d){
+	//This function needs to be static because you will eventually call it in main() which is also a static function
+	public static boolean isPrime(double d){
 		if (d % 2 == 0 || d % 3 == 0 || n % d == 0 || d % 7 == 0 || d % 11 == 0 || d % 13 == 0) return false;
         double i = 3;
         while (i * i <= d) {
